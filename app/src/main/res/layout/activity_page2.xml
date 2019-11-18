@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sama.azkar.page2"
+    android:orientation="vertical"
+    android:background="@drawable/bg0">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="عن التطبيق:"
+            android:id="@+id/textView"
+            android:layout_gravity="right" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="تطبيق للاذكارات المنوعة, بسيط وسهل الاستخدام,, مع النطق الصوتي, وتكبير وتصغير النص إلخ"
+            android:id="@+id/textView2" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"/>
+
+
+        <Button
+            android:id="@+id/btnshare"
+            android:text="مشاركة التطبيق"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="samaa.atef65@gmail.com"
+            android:id="@+id/textView3"
+            android:autoLink="email"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp" />
+
+        <TextView
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="01018677036"
+            android:autoLink="phone"
+            android:id="@+id/textView4"
+            android:layout_margin="30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
